@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point
- *
- * Description: 'Skipping Q and E'
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+* Description: 'Skipping Q and E'
+* Return: Always 0 (Success)
+*/
 /* betty style doc for function main goes there */
 int main(void)
 {
