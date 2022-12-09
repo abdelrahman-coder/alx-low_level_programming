@@ -1,14 +1,12 @@
 #include <stdio.h>
 /**
- *
- *  * main - prints alpha in lower and upper case 
- *
- *   * Return: Always 0
- *
- *    */
+* main - prints alpha in lower and upper case 
+*Return: Always 0 (success)
+*/
+
 int main(void)
 {
-	char ch;
+	char c;
 	
 	c = 'a';
 	while
