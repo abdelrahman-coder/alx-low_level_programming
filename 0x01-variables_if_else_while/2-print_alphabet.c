@@ -1,20 +1,22 @@
 #include <stdio.h>
+#include <stdlib.h>
+/* more headers goes there */
 /**
-* main - prints alpha in lower and upper case
-*
-* Return: Always 0 (success)
-*/
-
+ * main - Entry point
+ *
+ * Description: 'The last digit'
+ *
+ * Return: Always 0 (Success)
+ */
+/* betty style doc for function main goes there */
 int main(void)
 {
-	char c;
-	
-	c = 'a';
-	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
-		}	
+	int ch;
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
 	putchar('\n');
 	return (0);
 }
