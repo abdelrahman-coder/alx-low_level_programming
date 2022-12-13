@@ -7,6 +7,7 @@
  * Return: 1 if character is the number is greater than zer0, -1 for less than zer0.
  */
 int print_sign(int n)
+
 {
 	if (n > 0)
 	{
@@ -18,7 +19,7 @@ int print_sign(int n)
 
 	_putchar('0');
 	return (0);
-	
+
 	}
 	else
 	{
@@ -27,4 +28,5 @@ int print_sign(int n)
 	return (-1);
 
 	}
+
 }
