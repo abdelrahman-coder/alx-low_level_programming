@@ -50,26 +50,23 @@ int main(void)
 }
 =======
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
- * main - Entry point
- *
- * Description: 'Skipping Q and E'
- *
- * Return: Always 0 (Success)
+ * main - prints the alphabet in lowercase,
+ * followed by a new line, except q and e
+ * Return: Aways 0 (Sucess)
  */
-/* betty style doc for function main goes there */
 int main(void)
 {
-	int ch;
+	char ch = 'a';
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	while (ch <= 'z')
 	{
-		if (ch == 'e' || ch == 'q')
+		if (ch != 'e' && ch != 'q')
 		{
-			continue;
+			putchar(ch);
 		}
-		putchar(ch);
+		ch++;
 	}
 	putchar('\n');
 	return (0);
