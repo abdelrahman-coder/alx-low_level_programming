@@ -11,4 +11,3 @@ void print_alphabet(void)
 		_putchar(letter);
 	_putchar('\n');
 }
->>>>>>> 24ff1d46b57ee37ae443fbe2f35e817e8c927f2d
