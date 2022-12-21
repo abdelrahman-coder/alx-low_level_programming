@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * string_toupper
+ * string_toupper - change lowercase to uppercase
  * @s:string
  * Return:char
  */
