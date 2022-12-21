@@ -5,7 +5,7 @@
  * @s: string to encode
  * Return: address of s
  */
-char *leer(char *s)
+char *leet(char *s)
 {
 	int i, j;
 	char a[] = "aAeEoOtTlL";
