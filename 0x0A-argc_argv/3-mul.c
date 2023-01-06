@@ -4,7 +4,7 @@
 /**
  * main - multiplies two numbers.
  * @argc: argument count
- * @argc: arguments
+ * @argv: arguments
  *
  * Return: 0
  */
